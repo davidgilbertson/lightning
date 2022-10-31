@@ -63,7 +63,7 @@ jobs:
           - {os: "windows-2022", pkg-name: "pytorch", python-version: "3.7", pytorch-version: "1.10", requires: "oldest"}
           - {os: "windows-2022", pkg-name: "lightning", python-version: "3.7", pytorch-version: "1.10", requires: "oldest"}
 
-    timeout-minutes: 50
+    timeout-minutes: 60
 
     steps:
     - uses: actions/checkout@v3
