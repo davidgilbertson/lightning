@@ -1295,9 +1295,9 @@ for more information.
 
     def train_on_device(model):
         # called PER DEVICE
+        configure_optimizers()
         on_fit_start()
         setup("fit")
-        configure_optimizers()
 
         # the sanity check runs here
 
